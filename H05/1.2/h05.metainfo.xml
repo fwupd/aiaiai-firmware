@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 Richard Hughes <richard@hughsie.com> -->
+<component type="firmware">
+  <id>com.AIAIAI.H05.firmware</id>
+  <name>H05 Modular Headphones</name>
+  <summary>Firmware for the AIAIAI H05 bluetooth device</summary>
+  <description>
+    <p>
+      Updating the firmware on your H05 improves performance and adds
+      new features.
+    </p>
+  </description>
+  <provides>
+    <!-- USB\VID_0A12&PID_1337 -->
+    <firmware type="flashed">7e8318e1-27ae-55e4-a7a7-a35eff60e9bf</firmware>
+  </provides>
+  <url type="homepage">https://aiaiai.dk/headphones/tma-2/parts/headbands/h05</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Proprietary</project_license>
+  <developer_name>AIAIAI</developer_name>
+  <releases>
+    <release urgency="medium" version="1.2" date="2017-05-11">
+      <checksum filename="h05_v1-2.dfu" target="content"/>
+      <description>
+        <p>
+          Initial firmware release.
+        </p>
+      </description>
+    </release>
+  </releases>
+</component>
