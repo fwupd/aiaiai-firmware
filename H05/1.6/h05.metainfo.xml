@@ -2,8 +2,8 @@
 <!-- Copyright 2017 Richard Hughes <richard@hughsie.com> -->
 <component type="firmware">
   <id>com.AIAIAI.H05.firmware</id>
-  <name>H05 Modular Headphones</name>
-  <summary>Firmware for the AIAIAI H05 bluetooth device</summary>
+  <name>H05 Wireless Headband</name>
+  <summary>Firmware for the AIAIAI H05 Wireless Headband</summary>
   <description>
     <p>
       Updating the firmware on your H05 improves performance and adds
