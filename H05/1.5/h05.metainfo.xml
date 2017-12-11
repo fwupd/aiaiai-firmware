@@ -36,4 +36,9 @@
       </description>
     </release>
   </releases>
+
+  <!-- only newer versions of fwupd know how to write to this hardware -->
+  <requires>
+    <id compare="ge" version="1.0.3">org.freedesktop.fwupd</id>
+  </requires>
 </component>
