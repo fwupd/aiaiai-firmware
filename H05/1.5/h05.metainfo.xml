@@ -19,7 +19,7 @@
   <project_license>Proprietary</project_license>
   <developer_name>AIAIAI</developer_name>
   <releases>
-    <release urgency="medium" version="1.5" date="2017-05-11">
+    <release urgency="medium" version="1.5" date="2017-12-11">
       <checksum filename="h05_v1-5.dfu" target="content"/>
       <description>
         <p>
