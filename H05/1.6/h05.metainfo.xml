@@ -19,8 +19,8 @@
   <project_license>Proprietary</project_license>
   <developer_name>AIAIAI</developer_name>
   <releases>
-    <release urgency="medium" version="1.6" date="2017-05-11">
-      <checksum filename="h05_v1-6.dfu" target="content"/>
+    <release urgency="medium" version="1.6" date="2017-12-11">
+      <checksum filename="h05_v1-2_to_v1-6.dfu" target="content"/>
       <description>
         <p>
           The following bugs have been fixed:
