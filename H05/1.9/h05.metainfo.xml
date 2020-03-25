@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 Richard Hughes <richard@hughsie.com> -->
+<component type="firmware">
+  <id>com.AIAIAI.H05.firmware</id>
+  <name>H05 Wireless Headband</name>
+  <summary>Firmware for the AIAIAI H05 Wireless Headband</summary>
+  <description>
+    <p>
+      Updating the firmware on your H05 improves performance and adds
+      new features.
+    </p>
+  </description>
+  <provides>
+    <!-- USB\VID_0A12&PID_1337 -->
+    <firmware type="flashed">7e8318e1-27ae-55e4-a7a7-a35eff60e9bf</firmware>
+  </provides>
+  <url type="homepage">https://aiaiai.dk/headphones/tma-2/parts/headbands/h05</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Proprietary</project_license>
+  <developer_name>AIAIAI</developer_name>
+  <releases>
+    <release urgency="medium" version="1.9" date="2017-12-11">
+      <checksum filename="h05_v1-9.dfu" target="content"/>
+      <description>
+        <p>
+          The following bugs have been fixed:
+        </p>
+        <ul>
+          <li>Fix for no audio during phone call</li>
+          <li>Adjustment to allow playback at lower volumes</li>
+          <li>Jumps between volume steps are smaller for more natural volume control</li>
+          <li>Changed to match new volume curve</li>
+          <li>Changed from pure DSP to hybrid for improved signal/noise ratio</li>
+          <li>Long press changed from 2,5s to 3,5s to mitigate unwanted turn off</li>
+          <li>CVC settings tuned to improve microphone performance</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+  <!-- only newer versions of fwupd know how to write to this hardware -->
+  <requires>
+    <id compare="ge" version="1.0.3">org.freedesktop.fwupd</id>
+  </requires>
+</component>
